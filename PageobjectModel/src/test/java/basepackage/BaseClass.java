@@ -25,7 +25,7 @@ public class BaseClass
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 		driver.get("https://selenium.obsqurazone.com/index.php");
-		System.out.println();
+
 	}
 	
 	@AfterMethod
